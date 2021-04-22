@@ -82,9 +82,15 @@ router.delete('/:id', (req, res) => {
  })
  .then(categoryData => {
    if(!categoryData) {
-     res.status(404)
+     res.status(404).json({message: "Invalid Id. Category not found!"});
+     return;
    }
+   res.json(categoryData);
  })
+ .catch(err => {
+   console.log(err);
+   res.status(500).json(err);
+ });
 });
 
 module.exports = router;
