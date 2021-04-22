@@ -1,10 +1,6 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
-// The `/api/products` endpoint
-
-// id, product_name, price, stock
-// get all products
 router.get('/', (req, res) => {
   Product.findAll({
     include: [
@@ -23,14 +19,27 @@ router.get('/', (req, res) => {
     console.log(err);
     res.status(500).json(err);
   })
-  // find all products
-  // be sure to include its associated Category and Tag data
 });
 
-// get one product
 router.get('/:id', (req, res) => {
-  // find a single product by its `id`
-  // be sure to include its associated Category and Tag data
+  Product.findOne({
+    where: {
+      id: req.params.id
+    },
+    include: [{
+      model: Category,
+      attributes: ['category_name'] 
+    },
+    {
+      model: Tag,
+      attributes: ['tag_name']
+    }]
+  })
+  .then(productData => res.json(productData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 // create new product
@@ -102,13 +111,28 @@ router.put('/:id', (req, res) => {
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
-      // console.log(err);
+      console.log(err);
       res.status(400).json(err);
     });
 });
 
 router.delete('/:id', (req, res) => {
-  // delete one product by its `id` value
+  Product.destroy({
+    where: {
+      id: req.params.id
+    }
+  })
+  .then(productData => {
+    if(!productData) {
+      res.status(404).json({message: 'Invalid product id. Product not found!'});
+      return;
+    }
+    res.json(productData);
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 module.exports = router;
