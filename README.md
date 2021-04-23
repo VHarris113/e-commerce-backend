@@ -38,8 +38,8 @@ Also to include the programs used:
 ## Support
 Please contact me via below if you have questions. Thank you!
 
-(GitHub)[https://github.com/VHarris113]
-(LinkedIn)[https://www.linkedin.com/in/veronica-harris-b26872112/]
+[GitHub](https://github.com/VHarris113)
+[LinkedIn](https://www.linkedin.com/in/veronica-harris-b26872112/)
 
 ## Acknowledgements
 Thanks and shoutout to the BSC Instructional Staff and 2021 Spring Bootcamp Cohort!
