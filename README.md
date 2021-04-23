@@ -37,6 +37,7 @@ Also to include the programs used:
 
 ## Support
 Please contact me via below if you have questions. Thank you!
+
 (GitHub)[https://github.com/VHarris113]
 (LinkedIn)[https://www.linkedin.com/in/veronica-harris-b26872112/]
 
