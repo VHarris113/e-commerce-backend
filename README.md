@@ -16,7 +16,8 @@ An updated and helpful web development tool that helps keep track of incoming an
 ![Gif](https://github.com/VHarris113/e-commerce-backend/blob/6d7730fd501476e63ab7df879b87157d170fc254/assets/ecommerce2.gif)
 ![Gif]()
 
-[Video One](https://drive.google.com/file/d/1t9VPQ9DS8FpkUkFEJw7qnZqrxsG3r9BA/view);
+[Video One](https://drive.google.com/file/d/1t9VPQ9DS8FpkUkFEJw7qnZqrxsG3r9BA/view)
+[Video Two]()
 ## Installation
 
 
