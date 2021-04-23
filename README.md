@@ -13,8 +13,6 @@ An updated and helpful web development tool that helps keep track of incoming an
 
 ## Usage
 ![Gif](https://github.com/VHarris113/e-commerce-backend/blob/4436840fcb1d730e7ae8b1ba2927ddd19ecaf8aa/assets/ecommerce1.gif)
-![Gif](https://github.com/VHarris113/e-commerce-backend/blob/6d7730fd501476e63ab7df879b87157d170fc254/assets/ecommerce2.gif)
-![Gif]()
 
 How-To Tutorials:
 - [Run Application/Categories](https://drive.google.com/file/d/1Q3-7idmpgL-xOz1k_GtgPK0-HML40KgG/view)
