@@ -77,7 +77,7 @@ router.put('/:id', (req, res) => {
   })
   .then((product) => {
     return ProductTag.findAll({where: { product_id: req.params.id }});
-    // console.log(product);
+    console.log(product);
   })
   .then((productTag) => {
     const productTagIds = productTags.map(({ tag_id }) => tag_id);
