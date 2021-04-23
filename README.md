@@ -36,6 +36,9 @@ Also to include the programs used:
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Support
-Please contact me via (GitHub)[https://github.com/VHarris113] or on (LinkedIn)[https://www.linkedin.com/in/veronica-harris-b26872112/] for further questions. Thank you!
+Please contact me via below if you have questions. Thank you!
+(GitHub)[https://github.com/VHarris113]
+(LinkedIn)[https://www.linkedin.com/in/veronica-harris-b26872112/]
+
 ## Acknowledgements
 Thanks and shoutout to the BSC Instructional Staff and 2021 Spring Bootcamp Cohort!
