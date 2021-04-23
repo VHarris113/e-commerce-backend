@@ -16,16 +16,28 @@ An updated and helpful web development tool that helps keep track of incoming an
 ![Gif](https://github.com/VHarris113/e-commerce-backend/blob/6d7730fd501476e63ab7df879b87157d170fc254/assets/ecommerce2.gif)
 ![Gif]()
 
-- [Video One](https://drive.google.com/file/d/1t9VPQ9DS8FpkUkFEJw7qnZqrxsG3r9BA/view)
-- [Video Two]()
+How-To Tutorials:
+- [Run Application/Categories](https://drive.google.com/file/d/1Q3-7idmpgL-xOz1k_GtgPK0-HML40KgG/view)
+- [Products](https://drive.google.com/file/d/1uRr54tHcau4huY4JiYahEpR4BR46e1yg/view)
+- [Tags](https://drive.google.com/file/d/1Ko_kHdVJ9PhLNrOscU9DmLI3YheiVUk2/view)
 ## Installation
 
+Please place into your Terminal or GitBash with the code:
 
+`git clone git@github.com:VHarris113/e-commerce-backend.git`
 
 ## Languages
+- JavaScript
+
+Also to include the programs used:
+- MySQL
+- Node.js
+- Insomnia
 
 ## License
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Support
+Please contact me via (GitHub)[https://github.com/VHarris113] or on (LinkedIn)[https://www.linkedin.com/in/veronica-harris-b26872112/] for further questions. Thank you!
 ## Acknowledgements
-Added
+Thanks and shoutout to the BSC Instructional Staff and 2021 Spring Bootcamp Cohort!
